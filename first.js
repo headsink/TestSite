@@ -3,4 +3,4 @@ const icon = simpleIcons.Get("hive");
 
 console.log(Object.getOwnPropertyNames(icon).toString());
 console.log(icon.title);
-console.log(icon.svg);
+console.log(icon.path);
