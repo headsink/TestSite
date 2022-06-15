@@ -7,3 +7,11 @@
 ## Date Time test
 
 The [datetimetest JS file](datetimetest.js) was for testing date time library because parsing date time format was not easy. Decision to choose which library to use was refered from [You don't (may not) need Moment.js](https://github.com/you-dont-need/You-Dont-Need-Momentjs#string--date-format) Repo.
+
+What am I trying to parse/convert?
+
+```
+Mon Jul 16 01:28:17 +0000 2012
+
+ccc MMM dd HH:mm:ss xxxx yyyy // format in date-fns library
+```
