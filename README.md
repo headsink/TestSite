@@ -15,3 +15,7 @@ Mon Jul 16 01:28:17 +0000 2012
 
 ccc MMM dd HH:mm:ss xxxx yyyy // format in date-fns library
 ```
+
+### Should trry day.js
+
+[Dayjs](https://github.com/iamkun/dayjs) seems simple enough.
