@@ -19,5 +19,5 @@ const getJson = async () => {
         console.error(error);
     }
 }
-
-getJson();
+const theJSON = getJson();
+console.log(theJSON);

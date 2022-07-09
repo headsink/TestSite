@@ -3,7 +3,7 @@
     "configurations": [
 
         {
-            "type": "pwa-node",
+            "type": "node",
             "request": "launch",
             "name": "First one",
             "skipFiles": [
@@ -12,13 +12,13 @@
             "program": "${workspaceFolder}\\first.js"
         },
         {
-            "type": "pwa-node",
+            "type": "node",
             "name": "datetime DBG",
             "request": "launch",
             "program": "${workspaceFolder}\\datetimetest.js"
         },
         {
-            "type": "pwa-node",
+            "type": "node",
             "name": "AXIOS DBG",
             "request": "launch",
             "program": "${workspaceFolder}\\axiostest.js"
