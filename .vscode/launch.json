@@ -1,10 +1,11 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "pwa-node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "First one",
             "skipFiles": [
                 "<node_internals>/**"
             ],
@@ -12,9 +13,15 @@
         },
         {
             "type": "pwa-node",
-            "name": "Run Current File",
+            "name": "datetime DBG",
             "request": "launch",
             "program": "${workspaceFolder}\\datetimetest.js"
+        },
+        {
+            "type": "pwa-node",
+            "name": "AXIOS DBG",
+            "request": "launch",
+            "program": "${workspaceFolder}\\axiostest.js"
         }
     ]
 }

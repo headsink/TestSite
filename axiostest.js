@@ -12,8 +12,12 @@ async function getUser() {
 */
 const getJson = async () => {
     try{
+      const response = await axios.get("https://headsink.github.io/jsonfile/response_1657182877432.json");
+      console.log("succes");
 
     }catch(error){
-        
+        console.error(error);
     }
 }
+
+getJson();
