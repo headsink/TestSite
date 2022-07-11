@@ -1,14 +1,8 @@
 const axios = require('axios');
 
 /*
-async function getUser() {
-  try {
-    const response = await axios.get('/user?ID=12345');
-    console.log(response);
-  } catch (error) {
-    console.error(error);
-  }
-}
+Testing axios async/await to get values from remote file
+
 */
 
 let datas;
@@ -26,7 +20,7 @@ async function getJson() {
     }
 }
 const theJSON = getJson().then((value)=>{
-  datas=value;
+  datas=value; // value into global variable because theJSON wasn't the same as returned
   console.log(value);});
-setTimeout(()=>{console.log(JSON.stringify(datas));},500);
+setTimeout(()=>{console.log(JSON.stringify(datas));},500); //if you set time faster, it will be undefined
 //console.log(JSON.stringify(theJSON.total));
