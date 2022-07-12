@@ -1,4 +1,19 @@
 # A place to test Nodejs and more as a beginner with the magic of VSCode.
+## DEBUG Setting for VSCode
+
+Use the same setting, change the filename of the program only...
+
+```javascript
+{
+            "type": "node",
+            "request": "launch",
+            "name": "First one",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\first.js"
+        }
+```
 
 ## first.js
 
