@@ -1,4 +1,5 @@
-# A place to test Nodejs and more as a beginner with the magic of VSCode.
+# A place to test Nodejs and more as a beginner with the magic of VSCode
+
 ## DEBUG Setting for VSCode
 
 Use the same setting, change the filename of the program only...
