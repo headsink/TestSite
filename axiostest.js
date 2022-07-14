@@ -23,4 +23,3 @@ const theJSON = getJson().then((value)=>{
   datas=value; // value into global variable because theJSON wasn't the same as returned
   console.log(value);});
 setTimeout(()=>{console.log(JSON.stringify(datas));},500); //if you set time faster, it will be undefined
-//console.log(JSON.stringify(theJSON.total));
