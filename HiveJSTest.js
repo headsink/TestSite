@@ -1,7 +1,7 @@
 const hivejs = require('@hiveio/hive-js');
 const getPosts = async () => {
 try{
-	await hivejs.api.getBlogEntries("fdgdfgdfgdfg", 10, 3, function(err, data) {
+	await hivejs.api.getBlogEntries("headsink", 10, 3, function(err, data) {
 		if(!data[0].blog){
 			console.log(err,"fail");
 		}else{
