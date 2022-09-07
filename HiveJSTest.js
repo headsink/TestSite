@@ -1,5 +1,5 @@
 const hivejs = require('@hiveio/hive-js');
-const getPosts = async () => {
+const getPostsEntries = async () => {
 try{
 	await hivejs.api.getBlogEntries("headsink", 10, 3, function(err, data) {
 		if(!data[0].blog){
@@ -16,5 +16,5 @@ catch{
 }
 }
 console.time("getPost time:");
-getPosts();
+getPostsEntries();
 
