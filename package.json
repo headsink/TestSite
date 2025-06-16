@@ -1,4 +1,22 @@
 {
+  "name": "testsite",
+  "version": "1.0.0",
+  "description": "Use the same setting, change the filename of the program only...",
+  "homepage": "https://github.com/headsink/TestSite#readme",
+  "bugs": {
+    "url": "https://github.com/headsink/TestSite/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/headsink/TestSite.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "axiostest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@hiveio/hive-js": "2.0.8",
     "axios": "1.10.0",
