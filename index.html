@@ -9,14 +9,22 @@
       content="Don't forget to refer to https://codepen.io/spacewalkingninja/pen/VwWdgob"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <link href="output.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Nothing</h1>
+    <h1 class="font-doto m-3 text-4xl">Nothing</h1>
     <div
       class="p-1 bg-gradient-to-br from-slate-300 to-black to-90% overflow-hidden"
     >
-      <div class="grid bg-radial-[at_40%_65%] from-slate-500 to-winamp-grey to-99% shadow-2xl shadow-black text-amber-100">
+      <div
+        class="grid bg-radial-[at_40%_65%] from-slate-500 to-winamp-grey to-99% shadow-2xl shadow-black text-amber-100"
+      >
         <header class="flex m-2 mb-1">
           <div class="flex-auto ml-2 mt-2 rounded-3xl h-3 bg-orange-400"></div>
           <div class="flex-none mx-2">
@@ -26,20 +34,31 @@
         </header>
 
         <div
-          class="grid border-2 border-slate-900 border-b-slate-300 border-r-slate-400 mx-3 mb-1">
-          <div class="flex flex-col backdrop-opacity-70 border-2 border-b-slate-800 border-r-black border-slate-400">
+          class="grid border-2 border-slate-900 border-b-slate-300 border-r-slate-400 mx-3 mb-1"
+        >
+          <div
+            class="flex flex-col backdrop-opacity-70 border-2 border-b-slate-800 border-r-black border-slate-400"
+          >
             <div class="flex flex-row p-2">
-              <div class="bg-black text-lime-500 opacity-100 font-mono text-6xl m-2 p-2 border-3 border-black border-r-zinc-600 border-b-zinc-600">
+              <div
+                class="bg-black text-lime-500 opacity-100 font-doto text-6xl m-2 p-2 border-3 border-black border-r-zinc-600 border-b-zinc-600"
+              >
                 01:23
               </div>
-              <div class="grid grid-rows-2">
-                <div class=""><p class=" bg-black text-amber-100">| 01-2</p></div>
-                <div class=""><input class=""
-                     type="range"
-                     min="0"
-                     max="100"
-                     value="10"
-                     step="1"></div>
+              <div class="grid basis-full grid-rows-2 border-1 border-amber-300">
+                <div class="border-1 m-1">
+                  <p class="bg-black m-1 text-amber-100">| 01-2</p>
+                </div>
+                <div class="border-1 m-1">
+                  <input
+                    class=""
+                    type="range"
+                    min="0"
+                    max="100"
+                    value="10"
+                    step="1"
+                  />
+                </div>
               </div>
             </div>
             <div>02</div>
