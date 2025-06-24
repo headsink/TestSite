@@ -239,6 +239,9 @@
   .w-12 {
     width: calc(var(--spacing) * 12);
   }
+  .w-full {
+    width: 100%;
+  }
   .flex-auto {
     flex: auto;
   }
@@ -263,17 +266,11 @@
   .flex-row {
     flex-direction: row;
   }
+  .content-center {
+    align-content: center;
+  }
   .items-center {
     align-items: center;
-  }
-  .justify-center {
-    justify-content: center;
-  }
-  .justify-items-center {
-    justify-items: center;
-  }
-  .justify-items-stretch {
-    justify-items: stretch;
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
@@ -398,9 +395,6 @@
   }
   .p-px {
     padding: 1px;
-  }
-  .align-middle {
-    vertical-align: middle;
   }
   .font-doto {
     font-family: var(--font-doto);
