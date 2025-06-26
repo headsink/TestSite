@@ -19,7 +19,10 @@
       "default",
       {
         "ignore": [
-          "-webkit-text-size-adjust"
+          "-webkit-text-size-adjust",
+          "text-wrap",
+          "text-wrap: pretty",
+          "text-wrap: wrap"
         ]
       }
     ]
