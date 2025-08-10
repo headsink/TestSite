@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.10",
-    "axios": "1.10.0",
+    "axios": "1.11.0",
     "date-fns": "4.1.0",
     "date-fns-tz": "3.2.0",
     "simple-icons": "15.9.0",
