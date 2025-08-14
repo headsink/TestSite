@@ -5,3 +5,17 @@
     --color-winamp-grey: #21212d;
     --font-doto: "Doto", sans-serif;
 }
+
+@layer components{
+    /* Custom styles for the 3D button effect */
+        .btn-classic {
+            border: 1px solid;
+            border-color: #6B7280 #1F2937 #1F2937 #6B7280;
+        }
+        .btn-classic:active {
+            border-color: #1F2937 #6B7280 #6B7280 #1F2937;
+        }
+        .display-font {
+            font-family: 'DS-Digital', 'Segment7', 'Courier New', monospace;
+        }
+}
